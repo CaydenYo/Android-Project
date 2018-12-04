@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.tarena.hero1.DetailActivity" >
+
+    <ImageView
+        android:id="@+id/imageView_DetailHeader"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_launcher" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/button_Detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="英雄介绍" />
+
+        <Button
+            android:id="@+id/button_Skill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="技能介绍" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ScrollView
+            android:id="@+id/scrollView_Detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView_Detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="英雄详细信息" />
+        </ScrollView>
+		<!--  默认隐藏-->
+        <LinearLayout
+            android:id="@+id/linear_Skill"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <Gallery
+                android:id="@+id/gallery_Skill"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:spacing="10dp" />
+
+            <ScrollView
+                android:id="@+id/scrollView_Skill"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/textView_Skill"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="英雄技能信息" />
+            </ScrollView>
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

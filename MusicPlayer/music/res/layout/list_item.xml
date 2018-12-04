@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="66dp"
+    android:orientation="horizontal"
+    android:layout_marginBottom="6dp"
+    android:background="#D4D4C8" >
+
+    <com.example.music.view.CircleImageView
+        android:id="@+id/listItem_Album"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_margin="3dp"
+        android:src="@drawable/cover_default" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal"
+            android:padding="5dp" >
+
+            <TextView
+                android:id="@+id/listItem_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="music name"
+                android:textColor="#31314D"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/listItem_singer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="singer"
+                android:textColor="#31314D" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal"
+            android:padding="5dp" >
+
+            <TextView
+                android:id="@+id/listItem_author"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="author"
+                android:textColor="#31314D" />
+
+            <TextView
+                android:id="@+id/listItem_composer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="composer"
+                android:textColor="#31314D" />
+
+            <TextView
+                android:id="@+id/listItem_durationtime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="time"
+                android:textColor="#31314D" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

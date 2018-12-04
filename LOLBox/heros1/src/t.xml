@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<heros>
+    <hero><name>﻿暗影之拳阿卡丽</name>
+        <spath>sfile/s_akali.png</spath>
+        <bpath>bfile/b_akali.jpg</bpath>
+        <heropath>tfile/akal.txt</heropath>
+        <type>3</type>
+        <skill>
+            <skillname>jnfile/akal/text_akal/a1.txt</skillname>
+            <skillurl>jnfile/akal/image_akal/a1.png</skillurl>
+            <skillname>jnfile/akal/text_akal/a2.txt</skillname>
+            <skillurl>jnfile/akal/image_akal/a2.png</skillurl>
+            <skillname>jnfile/akal/text_akal/a3.txt</skillname>
+            <skillurl>jnfile/akal/image_akal/a3.png</skillurl>
+            <skillname>jnfile/akal/text_akal/a4.txt</skillname>
+            <skillurl>jnfile/akal/image_akal/a4.png</skillurl>
+            <skillname>jnfile/akal/text_akal/a5.txt</skillname>
+            <skillurl>jnfile/akal/image_akal/a5.png</skillurl>
+          </skill>
+          
+          </hero><hero><name>九尾妖狐阿狸</name><spath>sfile/s_ali.png</spath><bpath>bfile/b_ali.jpg</bpath><heropath>tfile/ali.txt</heropath><type>3</type><skill><skillname>jnfile/ali/text_ali/a1.txt</skillname><skillurl>jnfile/ali/image_ali/a1.png</skillurl><skillname>jnfile/ali/text_ali/a2.txt</skillname><skillurl>jnfile/ali/image_ali/a2.png</skillurl><skillname>jnfile/ali/text_ali/a3.txt</skillname><skillurl>jnfile/ali/image_ali/a3.png</skillurl><skillname>jnfile/ali/text_ali/a4.txt</skillname><skillurl>jnfile/ali/image_ali/a4.png</skillurl><skillname>jnfile/ali/text_ali/a5.txt</skillname><skillurl>jnfile/ali/image_ali/a5.png</skillurl></skill></hero><hero><name>牛头酋长阿利斯塔</name><spath>sfile/s_alst.png</spath><bpath>bfile/b_alst.jpg</bpath><heropath>tfile/alst.txt</heropath><type>4</type><skill><skillname>jnfile/alst/text_alst/a1.txt</skillname><skillurl>jnfile/alst/image_alst/a1.png</skillurl><skillname>jnfile/alst/text_alst/a2.txt</skillname><skillurl>jnfile/alst/image_alst/a2.png</skillurl><skillname>jnfile/alst/text_alst/a3.txt</skillname><skillurl>jnfile/alst/image_alst/a3.png</skillurl><skillname>jnfile/alst/text_alst/a4.txt</skillname><skillurl>jnfile/alst/image_alst/a4.png</skillurl><skillname>jnfile/alst/text_alst/a5.txt</skillname><skillurl>jnfile/alst/image_alst/a5.png</skillurl></skill></hero><hero><name>殇之木乃伊阿木木</name><spath>sfile/s_amm.png</spath><bpath>bfile/b_amm.jpg</bpath><heropath>tfile/amm.txt</heropath><type>4</type><skill><skillname>jnfile/amm/text_amm/a1.txt</skillname><skillurl>jnfile/amm/image_amm/a1.png</skillurl><skillname>jnfile/amm/text_amm/a2.txt</skillname><skillurl>jnfile/amm/image_amm/a2.png</skillurl><skillname>jnfile/amm/text_amm/a3.txt</skillname><skillurl>jnfile/amm/image_amm/a3.png</skillurl><skillname>jnfile/amm/text_amm/a4.txt</skillname><skillurl>jnfile/amm/image_amm/a4.png</skillurl><skillname>jnfile/amm/text_amm/a5.txt</skillname><skillurl>jnfile/amm/image_amm/a5.png</skillurl></skill></hero><hero><name>黑暗之女安妮</name><spath>sfile/s_an.png</spath><bpath>bfile/b_an.jpg</bpath><heropath>tfile/an.txt</heropath><type>2</type><skill><skillname>jnfile/an/text_an/a1.txt</skillname><skillurl>jnfile/an/image_an/a1.png</skillurl><skillname>jnfile/an/text_an/a2.txt</skillname><skillurl>jnfile/an/image_an/a2.png</skillurl><skillname>jnfile/an/text_an/a3.txt</skillname><skillurl>jnfile/an/image_an/a3.png</skillurl><skillname>jnfile/an/text_an/a4.txt</skillname><skillurl>jnfile/an/image_an/a4.png</skillurl><skillname>jnfile/an/text_an/a5.txt</skillname><skillurl>jnfile/an/image_an/a5.png</skillurl></skill></hero><hero><name>冰晶凤凰艾尼维亚</name><spath>sfile/s_anwy.png</spath><bpath>bfile/b_anwy.jpg</bpath><heropath>tfile/anwy.txt</heropath><type>2</type><skill><skillname>jnfile/anwy/text_anwy/a1.txt</skillname><skillurl>jnfile/anwy/image_anwy/a1.png</skillurl><skillname>jnfile/anwy/text_anwy/a2.txt</skillname><skillurl>jnfile/anwy/image_anwy/a2.png</skillurl><skillname>jnfile/anwy/text_anwy/a3.txt</skillname><skillurl>jnfile/anwy/image_anwy/a3.png</skillurl><skillname>jnfile/anwy/text_anwy/a4.txt</skillname><skillurl>jnfile/anwy/image_anwy/a4.png</skillurl><skillname>jnfile/anwy/text_anwy/a5.txt</skillname><skillurl>jnfile/anwy/image_anwy/a5.png</skillurl></skill></hero><hero><name>寒冰射手艾希</name><spa
